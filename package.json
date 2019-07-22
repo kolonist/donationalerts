@@ -1,0 +1,37 @@
+{
+    "name": "donationalerts",
+    "version": "1.0.0",
+    "description": "Get last donation messages from donationalerts.com",
+    "main": "./lib/donationalerts.js",
+    "author": "Alexander Russkiy <developer@xinit.ru>",
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha test/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kolonist/donationalerts"
+    },
+    "bugs": {
+        "url": "https://github.com/kolonist/donationalerts/issues"
+    },
+    "keywords": [
+        "donationalerts",
+        "donation",
+        "donations",
+        "alert",
+        "alerts"
+    ],
+    "dependencies": {
+        "node-html-parser": "latest",
+        "sanitize-html": "latest",
+        "aws-sdk": "latest"
+    },
+    "devDependencies": {
+        "eslint": "latest",
+        "eslint-config-google": "latest",
+        "mocha": "latest",
+        "should": "latest",
+        "speaker": "latest"
+    }
+}
